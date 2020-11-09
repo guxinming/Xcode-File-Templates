@@ -1,34 +1,15 @@
 #import "___FILEBASENAME___.h"
 
-
-#pragma mark Constants
-
-
-#pragma mark - Class Extension
-
 @interface ___FILEBASENAMEASIDENTIFIER___ ()
 
 @end
 
-
-#pragma mark - Class Variables
-
-
-#pragma mark - Class Definition
-
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-
-#pragma mark - Properties
-
-
-#pragma mark - Constructors
-
-- (id)init
-{
+#pragma mark - Life Circle
+- (instancetype)init {
 	// Abort if base initializer fails.
-	if ((self = [super init]) == nil)
-	{
+	if ((self = [super init]) == nil) {
 		return nil;
 	}
 	
@@ -38,14 +19,10 @@
 	return self;
 }
 
-
 #pragma mark - Public Methods
-
 
 #pragma mark - Overridden Methods
 
-
 #pragma mark - Private Methods
-
 
 @end
